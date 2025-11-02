@@ -1,0 +1,492 @@
+main {
+    width: 70%;
+    margin: 50px auto;
+    text-align: center;
+    padding: 0px 10px;
+}
+
+.topNav .links img.hover {
+    width: 15%;
+    max-height: 100%;
+}
+
+.topNav .links img.default {
+    width: 15%;
+    max-height: 100%;
+}
+
+.topNav .links img.default-big {
+    width: 30%;
+    max-height: 100%;
+}
+
+.topNav .links img.hover-big {
+    width: 30%;
+    max-height: 100%;
+}
+
+.topNav a img.hover {
+    display: none;
+}
+.topNav a img.default {
+    display: inherit;
+}
+.topNav a:hover img.hover {
+    display: inherit;
+}
+.topNav a:hover img.default {
+    display: none;
+}
+
+.topNav a img.hover-big {
+    display: none;
+}
+.topNav a img.default-big {
+    display: inherit;
+}
+.topNav a:hover img.hover-big {
+    display: inherit;
+}
+.topNav a:hover img.default-big {
+    display: none;
+}
+
+.topNav {
+    max-height: 10%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #36382E;
+    overflow: hidden;
+}
+
+.logo{
+    display: inline-block;
+    max-height: 100%;
+    width: 10%;
+    padding-left: 5%;
+}
+.logo img{
+    max-height: 100%;
+    width: 55%;
+}
+.links{
+    display: inline-block;
+    float: right;
+    width: 65%;
+    max-height: 100%;
+    padding-right: 5%
+}
+
+/*.topNav a {*/
+/*    padding: 4px 10px 4px 10px;*/
+/*    text-decoration: none;*/
+/*    font-size: 25px;*/
+/*    color: #818181;*/
+/*    display: inline-block;*/
+/*}*/
+
+/*.topNav a:hover {*/
+/*    color: #f1f1f1;*/
+/*}*/
+
+body {
+    background-color: #DADAD9;
+}
+
+.videos {
+    margin: 10% 20%;
+}
+.videos h1 {
+    text-align: center;
+}
+video {
+    width: 100%;
+    margin: auto 2%;
+    border: 5px #36382E solid;
+}
+.sidebar1 {
+    padding-top: 6%;
+    width: 15%;
+    height: 100vh;
+    background-color: #F06449;
+    float: left;
+    top: 0;
+    left: 0;
+    position: fixed;
+
+}
+/*8db580 good green*/
+/*E4FF1A good yellow*/
+.sidebar2 {
+    padding-top: 6%;
+    width: 15%;
+    height: 100vh;
+    background-color: #5BC3EB;
+    top: 0;
+    right: 0;
+    position: fixed;
+
+}
+
+.sidebar1 img {
+    width: 100%;
+}
+
+.sidebar2 img {
+    width: 100%;
+}
+
+.divtv {
+    overflow: hidden;
+}
+
+
+
+@media screen and (max-height: 450px) {
+
+}
+
+@media (min-aspect-ratio: 1.4) {
+    .tv4 {
+        display: none;
+    }
+
+    .tv5 {
+        display: none;
+    }
+
+    .tv6 {
+        display: none;
+    }
+
+    .tv7 {
+        display: none;
+    }
+
+    .tv8 {
+        display: none;
+    }
+
+    .tv9 {
+        display: none;
+    }
+
+    .tv10 {
+        display: none;
+    }
+
+    .tv11 {
+        display: none;
+    }
+
+    .tv12 {
+        display: none;
+    }
+}
+
+@media (min-aspect-ratio: 1.2) and (max-aspect-ratio: 1.4) {
+    .tv4 {
+        display: inherit;
+    }
+
+    .tv5 {
+        display: none;
+    }
+
+    .tv6 {
+        display: none;
+    }
+
+    .tv7 {
+        display: none;
+    }
+
+    .tv8 {
+        display: none;
+    }
+
+    .tv9 {
+        display: none;
+    }
+
+    .tv10 {
+        display: none;
+    }
+
+    .tv11 {
+        display: none;
+    }
+
+    .tv12 {
+        display: none;
+    }
+}
+
+@media (min-aspect-ratio: 1) and (max-aspect-ratio: 1.2) {
+    .tv4 {
+        display: inherit;
+    }
+
+    .tv5 {
+        display: inherit;
+    }
+
+    .tv6 {
+        display: none;
+    }
+
+    .tv7 {
+        display: none;
+    }
+
+    .tv8 {
+        display: none;
+    }
+
+    .tv9 {
+        display: none;
+    }
+
+    .tv10 {
+        display: none;
+    }
+
+    .tv11 {
+        display: none;
+    }
+
+    .tv12 {
+        display: none;
+    }
+}
+
+@media (min-aspect-ratio: .85) and (max-aspect-ratio: 1) {
+    .tv4 {
+        display: inherit;
+    }
+
+    .tv5 {
+        display: inherit;
+    }
+
+    .tv6 {
+        display: inherit;
+    }
+
+    .tv7 {
+        display: none;
+    }
+
+    .tv8 {
+        display: none;
+    }
+
+    .tv9 {
+        display: none;
+    }
+
+    .tv10 {
+        display: none;
+    }
+
+    .tv11 {
+        display: none;
+    }
+
+    .tv12 {
+        display: none;
+    }
+}
+
+@media (min-aspect-ratio: .75) and (max-aspect-ratio: .85) {
+    .tv4 {
+        display: inherit;
+    }
+
+    .tv5 {
+        display: inherit;
+    }
+
+    .tv6 {
+        display: inherit;
+    }
+
+    .tv7 {
+        display: inherit;
+    }
+
+    .tv8 {
+        display: none;
+    }
+
+    .tv9 {
+        display: none;
+    }
+
+    .tv10 {
+        display: none;
+    }
+
+    .tv11 {
+        display: none;
+    }
+
+    .tv12 {
+        display: none;
+    }
+}
+
+@media (min-aspect-ratio: .67) and (max-aspect-ratio: .75) {
+    .tv4 {
+        display: inherit;
+    }
+
+    .tv5 {
+        display: inherit;
+    }
+
+    .tv6 {
+        display: inherit;
+    }
+
+    .tv7 {
+        display: inherit;
+    }
+
+    .tv8 {
+        display: inherit;
+    }
+
+    .tv9 {
+        display: none;
+    }
+
+    .tv10 {
+        display: none;
+    }
+
+    .tv11 {
+        display: none;
+    }
+
+    .tv12 {
+        display: none;
+    }
+}
+
+@media (min-aspect-ratio: .60) and (max-aspect-ratio: .67) {
+    .tv4 {
+        display: inherit;
+    }
+
+    .tv5 {
+        display: inherit;
+    }
+
+    .tv6 {
+        display: inherit;
+    }
+
+    .tv7 {
+        display: inherit;
+    }
+
+    .tv8 {
+        display: inherit;
+    }
+
+    .tv9 {
+        display: inherit;
+    }
+
+    .tv10 {
+        display: none;
+    }
+
+    .tv11 {
+        display: none;
+    }
+
+    .tv12 {
+        display: none;
+    }
+}
+
+@media (min-aspect-ratio: .55) and (max-aspect-ratio: .60) {
+    .tv4 {
+        display: inherit;
+    }
+
+    .tv5 {
+        display: inherit;
+    }
+
+    .tv6 {
+        display: inherit;
+    }
+
+    .tv7 {
+        display: inherit;
+    }
+
+    .tv8 {
+        display: inherit;
+    }
+
+    .tv9 {
+        display: inherit;
+    }
+
+    .tv10 {
+        display: inherit;
+    }
+
+    .tv11 {
+        display: none;
+    }
+
+    .tv12 {
+        display: none;
+    }
+}
+
+@media (min-aspect-ratio: .50) and (max-aspect-ratio: .55) {
+    .tv4 {
+        display: inherit;
+    }
+
+    .tv5 {
+        display: inherit;
+    }
+
+    .tv6 {
+        display: inherit;
+    }
+
+    .tv7 {
+        display: inherit;
+    }
+
+    .tv8 {
+        display: inherit;
+    }
+
+    .tv9 {
+        display: inherit;
+    }
+
+    .tv10 {
+        display: inherit;
+    }
+
+    .tv11 {
+        display: inherit;
+    }
+
+    .tv12 {
+        display: none;
+    }
+}
